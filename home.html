@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>hilmaalwafd | Home</title>
+  <meta name="Description" content="Wecome to my blog page!">
+  <meta name="Keywords" content="personnal, blog, uns, informatika">
+  <link rel="shortcut icon" href="pic/hijab.jpg">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+   
+
+  <div class="header">
+    <h2 style="color:burlywood"></h2>
+  </div>
+  
+  <div class="nav">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="campuslyfe.html">Campus Life</a></li>
+      <li><a href="skincare.html">Tips</li>
+      <li><a href="routine.html">Routine</a></li> 
+
+    </ul>
+        <div class="dropdown">
+            <button onclick="dropDown()" class="dropbtn">Contact &#9662;</button>
+              <div id="myDropdown" class="dropdown-content">
+                  <a href="https://api.whatsapp.com/send?phone=6285842489700">WhatsApp</a> 
+                  <a href="http://facebook.com/">Facebook</a> 
+                  <a href="https://twitter.com/hilmaalwafd">Twitter</a>
+              </div>
+          </div>
+  </div>
+
+    <div class="row">
+      <div class="content">
+        <div class="card">
+          <h2>Bagaimana Informatika UNS itu?</h2>
+          <h5>hils10 Feb 20197.00PM</h5> 
+          <img src="pic/kuliah.jpg" alt="uns" width="915"> 
+              <p>hai gaes! welcome to my firstpost
+                S<span id="dots">...</span> <span id="more">
+                Aku adalah mahasiswa program studi Informatika, angkatan 2017.
+                <br>
+                Halo gaes  aku Hilma, hihi salam sapa ya! Aku sekarang sedang duduk di bangku semester 4 jurusan informatika FMIPA UNS.Selama 4 semester ini aku memlikianyak cerita. cerita-cerita itu dapat berupa sebuah meori yang baik ataupun yang sedikit kurang mengenakkan.
+				Hmm memori baik itu salah satunya aku banyak meiliki waktu berdiskusi dengan temanku. Baik tentang kehidupan atau 	tentang perkuliahan di informatika.
+            .</span></p>
+              <button onclick="readMore()" id="myBtn">Read more</button>
+            </div>
+      </div>    
+    </div>
+
+    <div class="row">
+        <div class="content">
+          <div class="card">
+            <h2> Myprofile</h2>
+            <h5>hils</h5> 
+            <img src="pic/me.png" alt="me" width="915">   
+                <p>Halo teman-teman pembaca blog-ku semuanya, pada kesempatan kali ini aku akan menceritakan tentang diriku.</p>
+                  <br><a href="aboutme.html">Continue Reading ></a>
+          </div>
+        </div>    
+      </div>
+
+      <div class="row">
+        <div class="content">
+          <div class="card">
+            <h2>My tips on skincare!</h2> 
+            <h5>hils4/5/2019/5/2019, 01:57:26 PM</h5>
+            <img src="/pic/skin/1s.jpg" alt="skin" width="915">   
+           
+                <p>Yuk pahami kulitmu dan temukan tips serta solusinya!</p>
+                  <br><a href="skincare.html">Continue Reading ></a> 
+          </div>
+        </div>    
+      </div>
+	   <script>
+      function readMore() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more"; 
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less"; 
+          moreText.style.display = "inline";
+        }
+      }
+    </script>
+    
+    <script src="js/script.js"></script>
+    
+    <script>
+      setTimeout("alert('Already in-active 30s!')", 30000); 
+    </script>
+  
+    <div class="row">
+	    <div class="footer">
+          <a href="https://api.whatsapp.com/send?phone=6281227223449"><img src="pic/wa.png" alt="iconwa" width="50" height="50"></a>	
+      </div>
+      <div class="footer">
+          <a href="https://twitter.com/MiaAnandita1"><img src="pic/twitter.png" alt="icontw" width="50" height="50"></a>	
+      </div>
+      <div class="footer">
+          <a href="http://facebook.com/mia.anandita"><img src="pic/fb.png" alt="iconfb" width="50" height="50"></a>
+      </div>
+      <div class="footer">
+          <a href="https://www.youtube.com/channel/UClbzWQ4f73oXwFoZi8bNGCw/feed"><img src="pic/yb.png" alt="iconyb" width="50" height="50"></a>
+      </div>
+    </div>
+
+  
+ 
+
+ 
+  </body>
+
+</html>
